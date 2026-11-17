@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой мини-сайт</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+    }
+    header h1 { font-size: 2.5rem; color: #fff; }
+    header p { color: #ddd; margin-top: 10px; }
+    nav {
+      text-align: center;
+      padding: 15px;
+      background: #1a1a1a;
+    }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover { color: #2575fc; }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 { margin-bottom: 15px; color: #2575fc; }
+    .card {
+      background: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom:
